@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>2</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>HOT.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="1" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="LOJA" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="SUBC" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="BD" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="UF" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="AB" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="INF" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="SUP" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="DIA" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="DATA INI" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="DATA FIM" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="USER" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="DATA ATU" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="HORA ATU" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+            <Field name="1_2" size="254" source="File: \\pafs05\inteligencia_de_abastecimento$\1Gabriel\44 - Parametros de Interferencia\HOT.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>descplu.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="COD_PLU" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="DESCRICAO_PLU" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="NOM_DEPTO" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="NOM_CATEG" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="COD_SECAO" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="NOM_SECAO" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="COD_SUBCATEG" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="NOM_SUBCATEG" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="COD_GRUPO" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="NOM_GRUPO" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="COD_SUBGRUPO" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="NOM_SUBGRUPO" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="COD_FABRIC" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="NOM_FABRIC" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="FLG_PROD_MARCA_PROP" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+            <Field name="NOM_MARCA" size="254" source="File: \\pa02382340\Int Abast\1.Inputs\Mercadologica_Base\descplu.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="COD_PLU" selected="False" type="Int64" size="8" />
+            <SelectField field="DESCRICAO_PLU" selected="False" />
+            <SelectField field="COD_SUBCATEG" selected="True" type="Int64" size="8" />
+            <SelectField field="COD_GRUPO" selected="False" />
+            <SelectField field="NOM_GRUPO" selected="False" />
+            <SelectField field="COD_SUBGRUPO" selected="False" />
+            <SelectField field="NOM_SUBGRUPO" selected="False" />
+            <SelectField field="COD_FABRIC" selected="False" />
+            <SelectField field="NOM_FABRIC" selected="False" />
+            <SelectField field="FLG_PROD_MARCA_PROP" selected="False" />
+            <SelectField field="NOM_MARCA" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="474" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="SUBC" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="COD_SUBCATEG" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BASE_LOJAS.xlsx
+Query=`BASE_LOJAS$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Loja" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="Double" />
+            <Field name="Nome Loja" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_WString" />
+            <Field name="BU" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Bandeira" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Detalhe" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Distrito" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Tamanho Físico" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Tamanho" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Cidade" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Divisão" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="UF" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Status" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Região" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="RG" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Reg. Venda" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="Double" />
+            <Field name="Gerente Regional" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+            <Field name="Perfil" size="255" source="File: W:\1.Inputs\Cad_Lojas\BASE_LOJAS.xlsx|||`BASE_LOJAS$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Loja" selected="True" type="Int64" size="8" />
+            <SelectField field="Detalhe" selected="False" />
+            <SelectField field="Distrito" selected="True" rename="Microregião" />
+            <SelectField field="Tamanho Físico" selected="False" />
+            <SelectField field="Cidade" selected="False" />
+            <SelectField field="Divisão" selected="False" />
+            <SelectField field="Status" selected="False" />
+            <SelectField field="Região" selected="True" rename="Região2" />
+            <SelectField field="RG" selected="True" rename="Região" />
+            <SelectField field="Reg. Venda" selected="False" />
+            <SelectField field="Perfil" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToString([Loja]) + &quot; - &quot; + [Nome Loja]" field="Loja - Desc" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Loja - Desc = ToString([Loja]) + " - " + [Nome Loja]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="534" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="834" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="LOJA" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Loja" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Loja" selected="True" rename="Right_Loja" input="Right_" />
+                <SelectField field="Right_UF" selected="True" rename="Right_UF" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="354" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[DATA FIM] &gt; DateTimeNow()</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[DATA FIM] &gt; DateTimeNow()</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1038" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DATA ATU" selected="False" />
+            <SelectField field="Right_Loja" selected="False" />
+            <SelectField field="Right_UF" selected="True" rename="UF" />
+            <SelectField field="Loja - Desc" selected="True" type="V_String" size="1073741823" />
+            <SelectField field="BD" selected="False" />
+            <SelectField field="UF" selected="False" />
+            <SelectField field="USER" selected="False" />
+            <SelectField field="HORA ATU" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="datetimeparse([DATA INI], &quot;%d/%m/%Y&quot;)" field="DATA INI" size="254" type="V_String" />
+            <FormulaField expression="datetimeparse([DATA FIM], &quot;%d/%m/%Y&quot;)" field="DATA FIM" size="254" type="V_String" />
+            <FormulaField expression="datetimeparse([DATA ATU], &quot;%d/%m/%Y&quot;)" field="DATA ATU" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DATA INI = datetimeparse([DATA INI], "%d/%m/%Y")
+DATA FIM = datetimeparse([DATA ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="258" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="1" selected="False" />
+            <SelectField field="LOJA" selected="True" type="Int64" size="8" />
+            <SelectField field="SUBC" selected="True" type="Int64" size="8" />
+            <SelectField field="BD" selected="False" />
+            <SelectField field="UF" selected="False" />
+            <SelectField field="DATA INI" selected="True" type="Date" size="10" />
+            <SelectField field="DATA FIM" selected="True" type="Date" size="10" />
+            <SelectField field="USER" selected="False" />
+            <SelectField field="DATA ATU" selected="True" type="Date" size="10" />
+            <SelectField field="HORA ATU" selected="False" />
+            <SelectField field="1_2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1146" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">Z:\1Gabriel\44 - Parametros de Interferencia\Base BI InterferênciaV2.xlsx|||Planilha1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Base BI InterferênciaV2.xlsx
+Query=Planilha1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="930" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="LOJA" />
+            <Field field="SUBC" />
+            <Field field="AB" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToString([COD_SUBCATEG]) + &quot; - &quot; + [NOM_SUBCATEG]" field="Subcat - Desc" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Subcat - Desc = ToString([COD_SUBCATEG]) + " - " + [NOM_SUBCATEG]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1074" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="LOJA" action="GroupBy" rename="LOJA" />
+            <SummarizeField field="SUBC" action="GroupBy" rename="SUBC" />
+            <SummarizeField field="AB" action="GroupBy" rename="AB" />
+            <SummarizeField field="INF" action="GroupBy" rename="INF" />
+            <SummarizeField field="SUP" action="GroupBy" rename="SUP" />
+            <SummarizeField field="DIA" action="GroupBy" rename="DIA" />
+            <SummarizeField field="DATA INI" action="GroupBy" rename="DATA INI" />
+            <SummarizeField field="DATA FIM" action="GroupBy" rename="DATA FIM" />
+            <SummarizeField field="NOM_DEPTO" action="GroupBy" rename="NOM_DEPTO" />
+            <SummarizeField field="NOM_CATEG" action="GroupBy" rename="NOM_CATEG" />
+            <SummarizeField field="COD_SECAO" action="GroupBy" rename="COD_SECAO" />
+            <SummarizeField field="NOM_SECAO" action="GroupBy" rename="NOM_SECAO" />
+            <SummarizeField field="COD_SUBCATEG" action="GroupBy" rename="COD_SUBCATEG" />
+            <SummarizeField field="NOM_SUBCATEG" action="GroupBy" rename="NOM_SUBCATEG" />
+            <SummarizeField field="Subcat - Desc" action="GroupBy" rename="Subcat - Desc" />
+            <SummarizeField field="Right_Loja" action="GroupBy" rename="Right_Loja" />
+            <SummarizeField field="Nome Loja" action="GroupBy" rename="Nome Loja" />
+            <SummarizeField field="BU" action="GroupBy" rename="BU" />
+            <SummarizeField field="Bandeira" action="GroupBy" rename="Bandeira" />
+            <SummarizeField field="Microregião" action="GroupBy" rename="Microregião" />
+            <SummarizeField field="Tamanho" action="GroupBy" rename="Tamanho" />
+            <SummarizeField field="Right_UF" action="GroupBy" rename="Right_UF" />
+            <SummarizeField field="Região2" action="GroupBy" rename="Região2" />
+            <SummarizeField field="Região" action="GroupBy" rename="Região" />
+            <SummarizeField field="Gerente Regional" action="GroupBy" rename="Gerente Regional" />
+            <SummarizeField field="Loja - Desc" action="GroupBy" rename="Loja - Desc" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="702" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="LOJA" />
+            <Field field="SUBC" />
+            <Field field="AB" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="582" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1046">
+            <Field field="DATA ATU" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DATA ATU - Decrescente</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Unique" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Unique" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Unique" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Parametros de Interferência Restrição</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="fd16a4b6-7383-42c2-b408-73c8bfa6ae31" />
+      <Telemetry>
+        <PreviousWorkflowId value="ab5d4063-038d-4cd7-9a60-969eac75cb96" />
+        <OriginWorkflowId value="ab5d4063-038d-4cd7-9a60-969eac75cb96" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
